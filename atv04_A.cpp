@@ -2,10 +2,10 @@
 #include <iomanip>
 
 int main() {
-    // Parte a
-    std::cout << "Parte a:" << std::endl;
+   using namespace std;
+   cout << "Parte a:" << endl;
     for (char i = '0'; i <= '9'; ++i) {
-        std::cout <<  i << " - " << int(i) << std::endl;
+       cout <<  i << " - " << int(i) << endl;
     }  
  
     return 0;
